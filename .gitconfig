@@ -1,0 +1,15 @@
+[user]
+	name = Sven Kräuter | 5v3n
+	email = sven.kraeuter@mindmatters.de
+[alias]
+ co = checkout
+ st = status
+ ci = commit
+ rc = rebase --continue
+ pr = pull --rebase
+[color]
+ status = auto
+ diff = auto
+ branch = auto
+[merge]
+ tool = opendiff
