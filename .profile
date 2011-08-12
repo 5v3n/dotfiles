@@ -10,5 +10,9 @@ function parse_git_branch {
   echo "("${ref#refs/heads/}")"
 }
 
-export PS1='\[\033[01;32m\]\u\[\033[01;34m\] \w\[\033[31m\]$(parse_git_branch " (%s)")\[\033[01;34m\]$\[\033[00m\] '
+YELLOW="\[\033[0;33m\]"
+GREEN="\[\033[01;32m\]"
+PURPLE="\[\033[01;35m\]"
+LIGHTGREEN="\[\033[00m\]"
 
+PS1="$PURPLE\w$YELLOW \$(parse_git_branch)$GREEN\$ $LIGHTGREEN"
