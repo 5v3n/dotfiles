@@ -1,6 +1,11 @@
 [user]
-	name = Sven Kräuter | 5v3n
+	name = Sven Kraeuter | 5v3n
 	email = sven.kraeuter@gmx.net
+[core]
+	excludesfile = /Users/svenkrauter/.gitignore
+	autocrlf = input
+	editor = mate -w
+
 [alias]
  co = checkout
  st = status
