@@ -1,11 +1,16 @@
+[github]
+	user = 5v3n
+	token = 30d37b745cf18c623ba8b017a1713c35
 [user]
 	name = Sven Kraeuter | 5v3n
-	email = sven.kraeuter@gmx.net
+	email = sven.kraeuter@gmail.com
 [core]
 	excludesfile = /Users/svenkrauter/.gitignore
 	autocrlf = input
 	editor = mate -w
-
+	quotepath = false
+[sendemail]
+	smtpserver = mail.gmx.net
 [alias]
  co = checkout
  st = status
@@ -17,4 +22,9 @@
  diff = auto
  branch = auto
 [merge]
- tool = opendiff
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge\n--result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true
+[mergetool]
+	keepBackup = false

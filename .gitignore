@@ -1,0 +1,16 @@
+.DS_Store
+*.svn
+.svn
+*.cvs
+.cvs
+*.idea
+*.kpf
+*.tmproj
+*nbproject*
+.tmproj
+nbproject
+*.class
+.redcar
+doc
+.yardoc
+*.log
