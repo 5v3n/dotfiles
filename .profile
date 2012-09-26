@@ -45,10 +45,10 @@ PS1="$PURPLE\W$YELLOW \$(parse_git_branch)$NO_COLOR\$ "
 
 alias start_redis="redis-server /usr/local/etc/redis.conf"
 alias start_postgres="pg_ctl start -D /usr/local/var/postgres"
-alias mysql_start=sudo /usr/local/mysql/bin/mysqld_safe --user=mysql &
+alias mysql_start="sudo /usr/local/mysql/bin/mysqld_safe --user=mysql &"
 
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+alias mysql="/usr/local/mysql/bin/mysql"
+alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
 
 #ls
 alias ll="ls -l"
