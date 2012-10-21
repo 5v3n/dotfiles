@@ -43,6 +43,8 @@ PS1="$PURPLE\W$YELLOW \$(parse_git_branch)$NO_COLOR\$ "
 #PS1="\h:\W \u\$"
 #done
 
+alias sublime="open -a 'Sublime Text 2' $1"
+
 alias start_redis="redis-server /usr/local/etc/redis.conf"
 alias start_postgres="pg_ctl start -D /usr/local/var/postgres"
 alias start_mongodb="mongod --fork --logpath /usr/local/var/log/mongodb.log --logappend"
@@ -60,7 +62,7 @@ alias mnca="cd ~/Documents/Rails/makersandco && sublime . && bundle exec guard"
 alias mnc="cd ~/Documents/Rails/makersandco"
 
 #customer projects
-#...
+# ...
 #note for mongodb: "You can cleanly stop mongod using a SIGINT or SIGTERM signal on Unix-like systems. Either ^C, "kill -2 PID," or kill -15 PID will work."
 
 #default editor
