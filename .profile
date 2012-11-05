@@ -43,7 +43,8 @@ PS1="$PURPLE\W$YELLOW \$(parse_git_branch)$NO_COLOR\$ "
 #PS1="\h:\W \u\$"
 #done
 
-alias sublime="open -a 'Sublime Text 2' $1"
+alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias subl=sublime
 
 alias start_redis="redis-server /usr/local/etc/redis.conf"
 alias start_postgres="pg_ctl start -D /usr/local/var/postgres"
