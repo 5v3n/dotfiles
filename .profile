@@ -58,6 +58,9 @@ alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
 alias ll="ls -l"
 alias la="ls -al"
 
+#ruby
+alias be="bundle exec"
+
 #project shortcut
 alias mnca="cd ~/Documents/Rails/makersandco && sublime . && bundle exec guard"
 alias mnc="cd ~/Documents/Rails/makersandco"
